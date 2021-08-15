@@ -80,3 +80,6 @@ communicated to the Ethereum Kovan testnet, validated, and added to a block, a r
 * Copy the customer’s (your) Ethereum address from the Streamlit application page, and navigate to [Kovan Etherscan](https://kovan.etherscan.io/).
 * On the Kovan Etherscan page, click on the Txn Hash number associated with the transaction that paid the Fintech Finder candidate.
 * Return to the original transaction, and click the transaction’s to address.
+
+## License
+MIT
