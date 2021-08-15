@@ -18,6 +18,7 @@ This project is written in Python within the Visual Code environment with the fo
 * Eth Tester
 * mnemonic
 * bip44
+* Infura API https://infura.io
 
 
 ## Installation Guide
