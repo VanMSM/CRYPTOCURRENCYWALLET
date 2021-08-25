@@ -46,8 +46,7 @@ This is a payment application, which is integrated with the Ethereum blockchain 
 * Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully
 communicated to the Ethereum Kovan testnet, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
 * Copy the customer’s (your) Ethereum address from the Streamlit application page, and navigate to [Kovan Etherscan](https://kovan.etherscan.io/).
-* On the Kovan Etherscan page, click on the Txn Hash number associated with the transaction that paid the Fintech Finder candidate.
-* Return to the original transaction, and click the transaction’s to address.
+* On the Kovan Etherscan page, click on the search bar and enter your ethereum address or the transaction Hash number associated with the transaction that paid the Fintech Finder candidate, click on the transaction details to verify payment success.
 
 
 
