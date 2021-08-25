@@ -9,6 +9,48 @@ This is a payment application, which is integrated with the Ethereum blockchain 
 
 
 
+## DEMO IMAGES
+
+
+### Send Transaction
+
+<img width="1766" alt="Screen Shot 2021-08-25 at 2 49 31 PM" src="https://user-images.githubusercontent.com/80144026/130871670-be1af221-a4c4-41d8-a9ab-240351ad98ba.png">
+
+
+### Transaction Complete
+
+<img width="1701" alt="Screen Shot 2021-08-25 at 3 09 14 PM" src="https://user-images.githubusercontent.com/80144026/130871328-9c505c6b-5484-4cb5-8dce-1ebd9633ae57.png">
+
+### Check Transaction on Kovan Etherscan
+
+* Sender's Account
+
+<img width="1303" alt="Screen Shot 2021-08-25 at 2 58 06 PM" src="https://user-images.githubusercontent.com/80144026/130871442-cff88f34-a0e8-4522-a18d-063a3c3f3aad.png">
+
+* Transaction Details
+
+<img width="1303" alt="Screen Shot 2021-08-25 at 2 58 20 PM" src="https://user-images.githubusercontent.com/80144026/130871452-3a959416-072b-41df-a71b-fede5402bf19.png">
+
+* Receiver's Account 
+
+<img width="1308" alt="Screen Shot 2021-08-25 at 2 58 36 PM" src="https://user-images.githubusercontent.com/80144026/130871458-19325537-3e50-473b-ab29-0b7164f7812c.png">
+
+
+
+
+
+## How to Use
+
+* In the terminal, navigate to the project folder and run the Streamlit application by using "streamlit run Fintech_Finder.py"
+* On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for.
+* Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully
+communicated to the Ethereum Kovan testnet, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
+* Copy the customer’s (your) Ethereum address from the Streamlit application page, and navigate to [Kovan Etherscan](https://kovan.etherscan.io/).
+* On the Kovan Etherscan page, click on the Txn Hash number associated with the transaction that paid the Fintech Finder candidate.
+* Return to the original transaction, and click the transaction’s to address.
+
+
+
 ## Technologies
 
 This project is written in Python within the Visual Code environment with the following packages:
@@ -72,15 +114,6 @@ from typing import Any, List
 Clone to your local repo and open in VS Code
 
 
-## How to Use
-
-* In the terminal, navigate to the project folder and run the Streamlit application by using "streamlit run instantpayapp.py"
-* On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that youwould like to hire them for.
-* Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully
-communicated to the Ethereum Kovan testnet, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
-* Copy the customer’s (your) Ethereum address from the Streamlit application page, and navigate to [Kovan Etherscan](https://kovan.etherscan.io/).
-* On the Kovan Etherscan page, click on the Txn Hash number associated with the transaction that paid the Fintech Finder candidate.
-* Return to the original transaction, and click the transaction’s to address.
 
 ## License
 MIT
