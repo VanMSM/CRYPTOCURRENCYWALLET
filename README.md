@@ -21,6 +21,11 @@ This is a payment application, which is integrated with the Ethereum blockchain 
 
 <img width="1701" alt="Screen Shot 2021-08-25 at 3 09 14 PM" src="https://user-images.githubusercontent.com/80144026/130871328-9c505c6b-5484-4cb5-8dce-1ebd9633ae57.png">
 
+### SHORT VIDEO:
+
+https://user-images.githubusercontent.com/80144026/131203604-2a2492cb-116d-40db-b4bc-f6e7f0dc626e.mov
+
+
 ### Check Transaction on Kovan Etherscan
 
 * Sender's Account
