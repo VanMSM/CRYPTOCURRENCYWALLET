@@ -112,7 +112,9 @@ from typing import Any, List
  
 Clone to your local repo and open in VS Code
 
+## Contributors:
 
+[Van Maquilan](https://www.linkedin.com/in/van-miller-sarcov-maquilan-20b472202/)
 
 ## License
 MIT
